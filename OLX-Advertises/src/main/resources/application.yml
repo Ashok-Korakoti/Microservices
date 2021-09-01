@@ -3,10 +3,10 @@ server:
   
 spring:
    datasource:
-      url: jdbc:postgresql://localhost:5432/olx_advertises
-      driver-class-name: org.postgresql.Driver
-      username: postgres
-      password: postgres
+      url: jdbc:mysql://localhost:5432/olx_advertises
+      driver-class-name:  com.mysql.jdbc.Driver
+      username: root
+      password: root
    jpa:
       hibernate.ddl-auto: update
       properties:
