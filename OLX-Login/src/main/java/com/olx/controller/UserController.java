@@ -28,7 +28,6 @@ import com.olx.service.UserService;
 import com.olx.utils.JwtUtils;
 
 @RestController
-//@CrossOrigin("*")
 public class UserController {
 
 	@Autowired
