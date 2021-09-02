@@ -6,7 +6,7 @@ spring:
       url: jdbc:mysql://localhost:5432/olx_categories
       driver-class-name: com.mysql.jdbc.Driver
       username: root
-      password: root
+      password: Ashok@777
    jpa:
       hibernate.ddl-auto: update
       properties:
